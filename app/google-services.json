@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "437981540334",
+    "firebase_url": "https://digitalbrandoptimization.firebaseio.com",
+    "project_id": "digitalbrandoptimization",
+    "storage_bucket": "digitalbrandoptimization.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437981540334:android:0de31ae3e072ced8",
+        "android_client_info": {
+          "package_name": "com.digitalbrandoptimization"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437981540334-8b444i5eg82ca7118ih1s99hcb35d3aj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digitalbrandoptimization",
+            "certificate_hash": "d85408c33db7dc8a8c9742eb5a7bf00330528c46"
+          }
+        },
+        {
+          "client_id": "437981540334-ne1hlienpijbcp7mbkjj0ki56focrcl6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb2E2LRETscuq0f1yiQhOAGJSWw18NONM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437981540334-ne1hlienpijbcp7mbkjj0ki56focrcl6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

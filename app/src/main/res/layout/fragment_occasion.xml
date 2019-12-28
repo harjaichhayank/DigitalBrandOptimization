@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/gradient4"
+    tools:context=".Enquiry">
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/logo" />
+    <TextView
+        android:id="@+id/section_label"
+        android:textColor="@color/primary"
+        android:textSize="18sp"
+        android:typeface="serif"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Occasion" />
+    <Spinner
+        android:id="@+id/spinnerOccasionname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:entries="@array/occasiontype"
+        android:padding="10dp"
+        android:prompt="@string/occasion_prompt" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/btnSendReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Send Enquiry"
+        android:onClick="saveEnquiry"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

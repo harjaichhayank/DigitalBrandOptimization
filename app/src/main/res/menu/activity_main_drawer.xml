@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_info"
+            android:title="About Us" />
+
+
+        <item
+            android:id="@+id/nav_CorpoarteEvents"
+            android:icon="@drawable/ic_info"
+            android:title="Corpoarte Events" />
+
+        <item
+            android:id="@+id/nav_ExhibitionsManagement"
+            android:icon="@drawable/ic_info"
+            android:title="Exhibitions Management" />
+        <item
+            android:id="@+id/nav_Branding"
+            android:icon="@drawable/ic_info"
+            android:title="Branding" />
+        <item
+            android:id="@+id/nav_ExhibitionConsulting"
+            android:icon="@drawable/ic_info"
+            android:title="Exhibition Consulting" />
+        <item
+            android:id="@+id/nav_Partners"
+            android:icon="@drawable/ic_info"
+            android:title="Partners" />
+
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/nav_Awards"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Awards" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/ic_profile"
+                android:title="Profile" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:visible="false"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
